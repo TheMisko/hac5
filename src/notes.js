@@ -1,0 +1,1 @@
+newsAPI 6f27342bb93b48689e826a8ccef25038

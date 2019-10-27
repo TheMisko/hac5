@@ -1,22 +1,122 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
+  font-family: "Press Start 2P", cursive;
 }
 
-.App-logo {
-  height: 40vmin;
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.feed-container {
+  height: 70vh;
+  width: 20vw;
+  border-style: solid;
+  border-color: white;
+
+  overflow-y: scroll;
+}
+
+.article-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  height: 64.5vh;
+  width: 64vw;
+  border-style: solid;
+  border-color: white;
+}
+
+.article-container h2,
+p {
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.article-container p {
+  margin-top: -25%;
+}
+
+.feed {
+  margin-right: 5%;
+}
+
+.nav {
+  border-bottom: 3px solid;
+  border-color: white;
+  margin-bottom: 2%;
+  /* margin-right: 4.5%; */
+}
+
+.nav h1 {
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.home-flex {
+  display: flex;
+}
+
+.card {
+  width: 90%;
+  height: 120px;
+  border-style: solid;
+  border-color: white;
+}
+
+.card p {
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.feed-card {
+  margin-top: 5%;
+  margin-left: 6%;
+  margin-bottom: 3%;
+}
+
+.trapezoid {
+  border-bottom: 50px solid rgb(255, 255, 255);
+  border-left: 45px solid transparent;
+  margin-left: auto;
+  height: 0;
+  width: 120px;
+}
+
+.trapezoid-flex {
+  display: flex;
+}
+
+.card-text {
+  color: antiquewhite;
+}
+
+.card-text p {
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f1f1f1;
+}
+
+.source {
+  margin-left: 87%;
+  margin-bottom: 2%;
 }
